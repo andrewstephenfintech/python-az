@@ -62,12 +62,6 @@ for res in result_dict :
     print (res['value'])
 
 # conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=test;DATABASE=test;UID=user;PWD=password')
-# conn = pyodbc.connect(driver='{SQL Server}',
-#                       server='tcp:sql-reliance-qa.database.windows.net,1433',
-#                       database='sqldb-reliance-qa', 
-#                       uid='ftosadmin', 
-#                       pwd='relianceBank1dhd32*RO')
-# Data Source=sql-reliance-dev.database.windows.net;Initial Catalog=sqldb-reliance-dev;Integrated Security=False;User ID=ftosadmin;Password=oAp*12Ii9sd2mp13
 
 
 
