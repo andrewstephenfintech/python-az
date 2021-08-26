@@ -52,7 +52,7 @@ query = """
 webapp config connection-string list --name {} --resource-group {} --query "[?name=='EbsSqlServer']"
 """.format(res['name'], res['resourceGroup'])
 
-# az webapp config appsettings list --name app-reliance-dev --resource-group FTOS-Reliance-dev
+# az webapp config appsettings list --name app-reliance-dev --resource-group FTOS-Reliance-dev --query "[?name=='ftosStorageService-AzureBlob-connectionString']"
 # webapp config connection-string list --name {} --resource-group {}
 # 
 print (query)
